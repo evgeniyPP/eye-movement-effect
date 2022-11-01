@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.base-image {
+  height: 100vh;
+}
+
+.eyes,
+.eye {
+  position: absolute;
+}
+
+.eye_morty-left {
+  top: 100px;
+  left: -185px;
+}
+
+.eye_morty-right {
+  top: 90px;
+  left: -60px;
+}
+
+.eye_rick-left {
+  top: -145px;
+  left: 85px;
+}
+
+.eye_rick-right {
+  top: -152px;
+  left: 195px;
+}
